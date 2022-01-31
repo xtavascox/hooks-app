@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { RealExampleRef } from './components/useRef/RealExampleRef.tsx';
+// import { FormCustom } from './components/02-useEffect/FormCustom.tsx';
+// import { MultipleCustomHooks } from './components/examples/MultipleCustomHooks.tsx';
+// import { FocusScreen } from './components/useRef/FocusScreen.tsx';
+// import { SimpleForm } from './components/02-useEffect/SimpleForm.tsx'
+// import { CounterApp } from './components/01-useState/CounterApp.tsx';
+// import { CounterCustom } from './components/01-useState/CounterCustom.tsx';
+// import { HookApp } from './HookApp.tsx';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RealExampleRef />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
