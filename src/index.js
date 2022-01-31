@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { RealExampleRef } from './components/useRef/RealExampleRef.tsx';
+import { CallbackHook } from './components/memos/CallbackHook.tsx';
+// import { MemoHook } from './components/memos/MemoHook.tsx';
+// import { Memorioze } from './components/memos/Memorioze.tsx';
+// import { RealExampleRef } from './components/useRef/RealExampleRef.tsx';
 // import { FormCustom } from './components/02-useEffect/FormCustom.tsx';
 // import { MultipleCustomHooks } from './components/examples/MultipleCustomHooks.tsx';
 // import { FocusScreen } from './components/useRef/FocusScreen.tsx';
@@ -12,7 +15,7 @@ import { RealExampleRef } from './components/useRef/RealExampleRef.tsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <RealExampleRef />
+    <CallbackHook />
   </React.StrictMode>,
   document.getElementById('root')
 );
