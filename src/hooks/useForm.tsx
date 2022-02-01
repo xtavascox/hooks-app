@@ -4,7 +4,9 @@ import {useState} from 'react';
 export const useForm = (initialState:object={}) => {
   
 const[values,setValues]=useState(initialState)
-
+const reset=()=>{
+    setValues(initialState)
+}
 const handleInputChange=({target})=>{
     setValues({
         ...values,
@@ -12,6 +14,6 @@ const handleInputChange=({target})=>{
     })
 }
 
-return [values,handleInputChange]
+return [values,handleInputChange,reset]
 
 };
