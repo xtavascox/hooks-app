@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CallbackHook } from './components/memos/CallbackHook.tsx';
+import { TodoApp } from './components/useReducer/TodoApp.tsx';
+// import { CallbackHook } from './components/memos/CallbackHook.tsx';
 // import { MemoHook } from './components/memos/MemoHook.tsx';
 // import { Memorioze } from './components/memos/Memorioze.tsx';
 // import { RealExampleRef } from './components/useRef/RealExampleRef.tsx';
@@ -15,8 +16,8 @@ import { CallbackHook } from './components/memos/CallbackHook.tsx';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CallbackHook />
+    <TodoApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
+// import './components/useReducer/intro-reducer.tsx'
